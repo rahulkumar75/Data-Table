@@ -1,4 +1,4 @@
-# Data Table
+# Data Table Link: [https://data-table-lac.vercel.app/]
 This repository contains a React component called DataTable, designed to manage and display a collection of user data. It provides functionality for adding, editing, deleting, and searching user entries, as well as pagination to navigate through the data efficiently.
 
 # Key Features
