@@ -6,15 +6,7 @@ This repository contains a React component called DataTable, designed to manage 
 * Edit User Data: Entries in the table are editable. Clicking the edit button enables inline editing for the specific entry.
 * Delete User Data: Users can remove entries from the table.
 * Search: The table includes a search function to filter entries by name.
-* Pagination: Data is displayed in pages, with navigation buttons to switch between pages.
-  
-# Components and Functions
-State Variables
-formData: Object to hold form input values.
-data: Array to hold user data.
-editId: Stores the ID of the entry currently being edited.
-searchTerm: Stores the current search query.
-currentPage: Tracks the current page in the pagination.
+* Pagination: Data is displayed in pages, with navigation buttons to switch between pages. 
 
 # References
 * outSideClick: Ref to detect clicks outside the editable area to exit edit mode.
