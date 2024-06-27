@@ -8,7 +8,7 @@ export default function DataTable() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const outSideClick = useRef(false);
-  const itemPerPage = 3; //vid-51:00
+  const itemPerPage = 3; 
   const indexOfLastItem = currentPage * itemPerPage;
   const indexOfFirstItem = indexOfLastItem - itemPerPage;
 
@@ -19,7 +19,7 @@ export default function DataTable() {
   const filteredData = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
 
   useEffect(() => {
-    //vid- 1:06:00
+    
     setCurrentPage(1);
   }, [searchTerm]);
 
@@ -30,7 +30,7 @@ export default function DataTable() {
   }, [editId]);
 
   useEffect(() => {
-    //vid- 46:00
+    
     const handleClickOutside = (event) => {
       if (
         outSideClick.current &&
@@ -198,8 +198,6 @@ export default function DataTable() {
           </tbody>
         </table>
         <div className="pagination">
-          {" "}
-          {/* vid- 55:00 */}
           {Array.from(
             { length: Math.ceil(filteredItems.length / itemPerPage) },
             (_, index) => (
